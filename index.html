@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <!-- CDN (Containt Delivery Network) Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CDN Link - Google font families -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Poppins&family=Roboto:wght@500;900&display=swap" rel="stylesheet">
     <style>
         header{
             background-color: rgb(192, 35, 35);
@@ -12,6 +18,7 @@
         nav a{
             margin-right: 40px;
             text-decoration: none;
+            font-family: 'Concert One', sans-serif;
         }
         #homeLink{
             margin-left: 10px;
@@ -19,15 +26,30 @@
         footer a{
             margin-right: 40px;
         }
-        span{
+        header span{
             margin-right: 30px;
+            
+        }
+        header{
+            text-align: right;
+            height: 25px;
+        }
+        header img{
+            width: 30px;
+            height: 25px;
+        }
+        .topleft{
+            position: absolute;
         }
     </style>
 </head>
 <body>
     <!-- Header Section -->
     <header>
-        <span> Name: Sandip Galande </span> <span>Mobile: 9049 3123 30</span>Email: sandipgalande0076@gmail.com<span></span> 
+        <div class="topleft"><img src="assets/5072860.png" alt="Sandip Galande"></div>
+        <span> <i class="fa fa-user" aria-hidden="true"></i>Sandip Galande  </span>
+        <span> <i class="fa fa-phone-square" aria-hidden="true"></i> 9049 3123 30  </span>
+        <span> <i class="fa fa-envelope" aria-hidden="true"></i> sandipgalande0076@gmail.com</span>
     </header>
     <hr>
     <!-- Navigation Section -->
@@ -44,9 +66,9 @@
 
     <!-- Footer Section -->
     <footer>
-        <a href="https://in.linkedin.com/">linkedin</a>
-        <a href="https://github.com/">GitHub</a>
-        <a href="https://www.naukri.com/">Naukri</a>
+        <a href="https://in.linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        <a href="https://github.com/"><i class="fa fa-github" aria-hidden="true"></i></a>
+        <a href="https://www.naukri.com/"><i class="fa fa-laptop" aria-hidden="true"></i></a>
     </footer>
 </body>
 </html>
