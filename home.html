@@ -9,6 +9,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Roboto+Flex:opsz@8..144&display=swap" rel="stylesheet">
     <style>
+        body{
+            background-image: url(assets/hand-painted-watercolor-pastel-sky-background_23-2148902771.avif);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
         .mainHeading{
             font-family: 'Poppins', sans-serif;
             color: rgb(218, 255, 8);
@@ -23,11 +28,16 @@
         }
         li{
             margin-bottom: 10px;
-            list-style-type: circle;
             font-family: 'Roboto Flex', sans-serif;
         }
         p{
             font-family: 'Roboto Flex', sans-serif;
+        }
+        li{
+            list-style-type: none;
+        }
+        li::before{
+            content: "👉";
         }
     </style>
 </head>
@@ -46,6 +56,5 @@
         <li>Knowledge of NodeJS</li>
         <li>Ablity to work with people at all levels in the program</li>
     </ul>
-    
 </body>
 </html>
